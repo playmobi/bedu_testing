@@ -88,15 +88,16 @@ DATABASES = {
 #     }
 # }
 
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Tours',
-        'USER': 'Tours',
-        'PASSWORD': 'Tours',
-        'HOST': '127.0.0.1',
-        'PORT': '3307',
-    }
-}
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'Tours',
+#         'USER': 'Tours',
+#         'PASSWORD': 'Tours',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3307',
+#     }
+# }
+
 
 
 # Password validation
@@ -145,3 +146,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 django_heroku.settings(locals())
 
+del DATABASES['default']['OPTIONS']['sslmode']
