@@ -88,15 +88,15 @@ DATABASES = {
 #     }
 # }
 
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'Tours',
-#         'USER': 'Tours',
-#         'PASSWORD': 'Tours',
-#         'HOST': '127.0.0.1',
-#         'PORT': '3307',
-#     }
-# }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Tours',
+        'USER': 'Tours',
+        'PASSWORD': 'Tours',
+        'HOST': '127.0.0.1',
+        'PORT': '3307',
+    }
+}
 
 
 
